@@ -22,3 +22,8 @@ This repo is a clone of https://github.com/miguelgrinberg/flask
 ![sc6](screenshots/sc6.png)
 ![sc7](screenshots/sc7.png)
 ![scR5](screenshots/scR5.png)
+
+### Activity 2.4
+
+![sc8](screenshots/sc8.png)
+![scR8](screenshots/scR8.png)
