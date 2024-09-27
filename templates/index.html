@@ -6,8 +6,8 @@ title %}Flasky{% endblock %} {% block page_content %}
     Docker
   </h1>
   <h2>
-    {% if ('utoronto' in email) %}Your UofT Email is {{ email }}{% else %}Please
-    use your UofT email{% endif %}.
+    {% if ('utoronto' in email.split("@")[1]) %}Your UofT Email is {{ email }}{%
+    else %}Please use your UofT email{% endif %}.
   </h2>
   <!-- <p>The local date and time is {{ moment(current_time).format('LLLL') }}.</p>
   <p>That was {{moment(current_time).fromNow(refresh=True) }}</p> -->
